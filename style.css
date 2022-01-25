@@ -12,6 +12,8 @@ div{
 	width: 500px;
 	background: whitesmoke;
 	margin: auto;
+	position: relative;
+	top: 15vw;
 	border: 8px solid steelblue;
 	overflow: hidden;
 	
