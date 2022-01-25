@@ -1,5 +1,5 @@
-
 *{
+	background: black;
 	font-size: 25px;
 	font-family: Cursive;
 	line-height: 2;
@@ -7,16 +7,28 @@
 	color: black;
 
 }
-
 div{
 	height: 300px;
-	width: 300px;
-	background: lightgoldenrodyellow;
+	width: 500px;
+	background: whitesmoke;
 	margin: auto;
-	border: 10px solid darkred;
-	overflow: auto;
-
+	border: 8px solid steelblue;
+	overflow: hidden;
+	
 }
+
+.phy{
+	position: relative;
+	height: 285px;
+	top: 300px;
+	transition: all 1s;
+}
+
+div:hover > img{
+	position: relative;
+	top: 0;
+}
+
 
 .caja1{
 top: 0;
