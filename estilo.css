@@ -1,0 +1,53 @@
+*{
+	background: black;
+	font-size: 25px;
+	font-family: Cursive;
+	line-height: 2;
+	font-weight: 200;
+	color: black;
+
+}
+div{
+	height: 300px;
+	width: 500px;
+	background: whitesmoke;
+	margin: auto;
+	position: absolute;
+	border: 8px solid steelblue;
+	overflow: hidden;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+}
+
+.phy{
+	position: relative;
+	height: 285px;
+	top: 300px;
+	transition: all 1s;
+}
+
+div:hover > img{
+	position: relative;
+	top: 0;
+}
+
+
+.caja1{
+top: 0;
+}
+.caja2{
+right: 0;
+}
+.caja3{
+bottom: 0;
+left: 0;
+}
+.caja4{
+bottom: 0;
+right: 0;
+}
+
+
